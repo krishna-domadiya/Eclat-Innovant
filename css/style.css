@@ -13,7 +13,7 @@ html, body {
 
 h1, h2, h3, h4 {
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .heading {
@@ -43,7 +43,7 @@ hr {
 }
 
 .section-title strong {
-	color: #00C6D7;
+	color: #005BBB;
   	font-size: 56px;
 }
 
@@ -106,7 +106,7 @@ preloader section
   margin: 0 auto;
   width: 20%;
   height: 20%;
-  background-color: #00c6d7;
+  background-color: #005BBB;
   border-radius: 100%;
   -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out;
           animation: sk-circleBounceDelay 1.2s infinite ease-in-out;
@@ -206,12 +206,12 @@ navigation section
     margin-bottom: 0;
 }
 .custom-navbar .navbar-brand  {
-  color: #00c6d7;
+  color: #005BBB;
   font-weight: 600;
   font-size: 24px;
 }
 .custom-navbar .navbar-brand .navbar-toggle {
-    background: #00c6d7;
+    background: #005BBB;
     padding: 4px 6px;
     font-size: 16px;
     color: #fff;
@@ -231,14 +231,14 @@ navigation section
   outline: none;
 }
 .custom-navbar .nav li.active > a {
-      color: #00c6d7;
+      color: #005BBB;
     }
 .custom-navbar .navbar-toggle {
         border: none;
         padding-top: 10px;
     }
 .custom-navbar .navbar-toggle .icon-bar {
-        background: #00c6d7;
+        background: #005BBB;
         border-color: transparent;
     }
 @media(min-width:768px){
@@ -282,23 +282,24 @@ home section
 }
 #home .btn {
   background: transparent;
-  border: 4px solid #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 0;
   color: #ffffff;
   font-size: 15px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
   padding: 12px 42px;
   margin-top: 40px;
   margin-right: 16px;
   transition: all 0.4s ease-in-out;
+  border-radius: 5px;
 }
 #home .btn:hover {
-  background: #00c6d7;
+  background: #005BBB;
   border-color: transparent;
 }
 #home .btn-danger {
-  background: #00c6d7;
+  background: #005BBB;
   border-color: transparent;
 }
 #home .btn-danger:hover {
@@ -357,7 +358,7 @@ about section
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #00c6d7;
+  color: #005BBB;
   cursor: default;
   background-color: transparent;
   border: 1px solid transparent;
@@ -383,7 +384,7 @@ team section
   text-align: center;
 }
 #team h3 {
-  color: #00c6d7;
+  color: #005BBB;
   font-size: 14px;
   font-weight: bold;
 }
@@ -436,7 +437,7 @@ team section
 }
 
 #team .social-icon li a:hover {
-  color: #00c6d7;
+  color: #005BBB;
 }
 
 /* ==========================================================================
@@ -473,8 +474,7 @@ portfolio section
     color: #999999;
     font-size: 13px;
     font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    letter-spacing: 1.5px;
     padding: 8px 17px;
     display: block;
     text-decoration: none;
@@ -483,7 +483,7 @@ portfolio section
 .filter-wrapper li .selected,
 .filter-wrapper li a:focus,
 .filter-wrapper li a:hover {
-    color: #00c6d7;
+    color: #005BBB;
     outline: none;
   }
 
@@ -578,7 +578,7 @@ pricing section
   text-transform: uppercase;
 }
 #pricing .plan-one .btn {
-  background-color: #00c6d7;
+  background-color: #005BBB;
 }
 #pricing .plan-two .btn {
   background-color: #ffa400;
@@ -620,7 +620,7 @@ contact section
 }
 #contact .form-control {
   border: 2px solid #ffffff;
-  border-radius: 0;
+  border-radius: 5px;
   box-shadow: none;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -630,9 +630,9 @@ contact section
   height: 40px;
 }
 #contact input[type="submit"] {
-  background: #00c6d7;
-  border: 3px solid #00c6d7;
-  letter-spacing: 1px;
+  background: #005BBB;
+  border: 3px solid #005BBB;
+  letter-spacing: 0.5px;
   margin-top: 18px;
   height: 50px;
   color: #ffffff;
@@ -647,8 +647,8 @@ footer section
 ========================================================================== */
 footer {
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 footer p {
   padding-top: 20px;
@@ -674,7 +674,7 @@ footer p {
   transition: all 0.4s ease-in-out;
 }
 .social-icon li a:hover {
-  color: #00c6d7;
+  color: #005BBB;
 }
 
 @media screen and (min-width: 992px) {
