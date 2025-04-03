@@ -462,7 +462,7 @@ portfolio section
 /* FILTER CSS */
 .filter-wrapper {
     width: 100%;
-    margin: 40px 0 24px 0;
+    margin: 24px 0 24px 0;
     overflow: hidden;
     text-align: center;
 }
@@ -474,7 +474,7 @@ portfolio section
     color: #999999;
     font-size: 13px;
     font-weight: bold;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     padding: 8px 17px;
     display: block;
     text-decoration: none;
@@ -611,6 +611,9 @@ contact section
   padding-top: 10px;
   padding-right: 10px;
 }
+#contact .contact-info {
+  padding-top: 65px;
+}
 #contact .contact-info div {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -647,8 +650,8 @@ footer section
 ========================================================================== */
 footer {
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 15px;
+  padding-top: 58px;
+  padding-bottom: 65px;
 }
 footer p {
   padding-top: 20px;
